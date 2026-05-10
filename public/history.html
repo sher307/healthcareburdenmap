@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History — Health Care Burden Map</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,opsz,wght@0,14..32,400..600;1,14..32,400..600&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="health-care-burden.css">
+
+</head>
+<body class="hcb-page">
+    <header class="header">
+        <p class="header__brand">Health Care Burden Map</p>
+        <div class="header__menu">
+        <nav class="nav" id="site-nav" aria-label="Primary">
+            <a href="index.html">Map</a>
+            <a href="history.html" class="is-active" aria-current="page">History</a>
+        </nav>
+        <button type="button" class="mobile-menu-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav">
+            <img src="icons/menu.png" alt="" width="32" height="32" decoding="async">
+        </button>
+        </div>
+    </header>
+
+    <main class="main">
+        <h1 class="page-title">History of the Map</h1>
+        <div class="history-page-container">
+            <div class="history-panel">
+                <h2>About this map</h2>
+                <p>This map was built for a graduate web applications course in Spring 2026. It combines public datasets on medical debt, primary-care shortage signals, and private-equity hospital ownership to surface patterns at the state level.</p>
+                <p>The intended audience was for patients, practitioners, policymakers, or just anyone interested in the topic. Future iterations could expand on metrics of health here and offer even more insights. 
+                <p>The interactive version uses Leaflet for pan and zoom.</p>
+                <div id="description">Free icons pulled from <a href="https://streamlineicons.com/">Streamline</a></div>
+            </div>
+            <div class="question-image"> <img src="icons/question.png" width="252px" height="252px" alt="question-image"></div>
+             </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 • Made by Sara Her</p>
+    </footer>
+
+    <script src="nav-mobile.js" defer></script>
+</body>
+</html>
